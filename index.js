@@ -18,10 +18,12 @@ window.addEventListener("load", () => {
     // build the password up until passwordLength
     for (let i = 0; i < passwordLength; i++) {
       const randomLowerCaseIndex = Math.round(Math.random() * lowerCaseLetters.length )//gives you a random # every time 
-      lowerCaseLetters[randomLowerCaseIndex]
       
+      
+      password = password + lowerCaseLetters[randomLowerCaseIndex]
       
     }
+    console.log(password)
   })
   
   
