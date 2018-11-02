@@ -19,8 +19,10 @@ window.addEventListener("load", () => {
     for (let i = 0; i < passwordLength; i++) {
       const randomLowerCaseIndex = Math.round(Math.random() * lowerCaseLetters.length )//gives you a random # every time 
       const randomUpperCaseIndex = Math.round(Math.random() * upperCaseLetters.length )
+      const randomNumbersIndex = Math.round(Math.random() * numbers.length )
+      const randomSpecialCharacters = Math.round(Math.random() * specialCharacters.length )
       
-      password = password + lowerCaseLetters[randomLowerCaseIndex] + upperCaseLetters[randomUpperCaseIndex]
+      password = password + lowerCaseLetters[randomLowerCaseIndex] + upperCaseLetters[randomUpperCaseIndex] + numbers[randomNumbersIndex] + specialCharacters[randomSpecialCharacters]
       
     }
     console.log(password)
