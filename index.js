@@ -24,6 +24,10 @@ window.addEventListener("load", () => {
       
       password = password + lowerCaseLetters[randomLowerCaseIndex] + upperCaseLetters[randomUpperCaseIndex] + numbers[randomNumbersIndex] + specialCharacters[randomSpecialCharacters]
       
+      if (password.length === passwordLength){
+        break
+      }
+      
     }
     console.log(password)
   })
