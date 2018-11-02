@@ -5,6 +5,9 @@ window.addEventListener("load", () => {
   document.addEventListener('submit', (event) => {
     //don't refresh
     event.preventDefault()
+    const input = document.querySelector('input')
+    const passwordLength - input.value 
+    console.log(passwordLength)
   })
   
   
