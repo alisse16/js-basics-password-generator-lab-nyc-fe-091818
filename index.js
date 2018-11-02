@@ -42,6 +42,9 @@ window.addEventListener("load", () => {
       
     }
     console.log(password)
+    const result = document.querySelector("#result")
+    result.innerText = password 
+    
   })
   
   
