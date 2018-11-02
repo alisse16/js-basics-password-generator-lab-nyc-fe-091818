@@ -24,20 +24,20 @@ window.addEventListener("load", () => {
       }
       
       const randomUpperCaseIndex = Math.round(Math.random() * upperCaseLetters.length )
-       password = password + upperCaseLetters[randomLowerCaseIndex]
+       password = password + upperCaseLetters[randomUpperCaseIndex]
        if (password.length === passwordLength){
         break
       }
       const randomNumbersIndex = Math.round(Math.random() * numbers.length )
+      password = password + numbers[randomNumbersIndex]
        if (password.length === passwordLength){
         break
       }
       const randomSpecialCharacters = Math.round(Math.random() * specialCharacters.length )
+      password = password + specialCharacters[randomSpecialCharacters]
        if (password.length === passwordLength){
         break
-      }
-      
-      password = password + lowerCaseLetters[randomLowerCaseIndex] + upperCaseLetters[randomUpperCaseIndex] + numbers[randomNumbersIndex] + specialCharacters[randomSpecialCharacters]
+       }
       
       
     }
