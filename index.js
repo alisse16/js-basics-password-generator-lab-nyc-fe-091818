@@ -13,6 +13,10 @@ window.addEventListener("load", () => {
     const input = document.querySelector('input')
     const passwordLength = parseInt(input.value, 10) 
     console.log(passwordLength)
+    if (passwordLength < 4) {
+      alert("enter pw of 4 or more")
+      return
+    }
     let password = '' //start with empty password 
     
     // build the password up until passwordLength
