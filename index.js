@@ -1,7 +1,7 @@
 window.addEventListener("load", () => {
   //start your code here
   const lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz"
-  const upperCaseLetters = ''
+  const upperCaseLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
   const numbers = ''
   const specialCharacters = ''
   
