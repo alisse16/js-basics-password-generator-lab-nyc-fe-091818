@@ -3,7 +3,7 @@ window.addEventListener("load", () => {
   const lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz"
   const upperCaseLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
   const numbers = '0123456789'
-  const specialCharacters = ''
+  const specialCharacters = '!#$%&()*+,-./:;<=>?@[\]^_{|}~'
   
   //1. figure out pw length
   document.addEventListener('submit', (event) => {
