@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
     event.preventDefault()
     
     const input = document.querySelector('input')
-    const passwordLength = input.value 
+    const passwordLength = parseInt(input.value, 10) 
     console.log(passwordLength)
     let password = '' //start with empty password 
     
