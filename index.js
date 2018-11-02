@@ -2,7 +2,7 @@ window.addEventListener("load", () => {
   //start your code here
   const lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz"
   const upperCaseLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-  const numbers = ''
+  const numbers = '0123456789'
   const specialCharacters = ''
   
   //1. figure out pw length
